@@ -132,10 +132,12 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat center;
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
 }
 #specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat center;
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;

@@ -15,7 +15,7 @@ function getRequestObject() {
   } 
   else {
     global.alert("Ajax is not supported!");
-    returnnull;
+    return(null); 
   }
 }
 
